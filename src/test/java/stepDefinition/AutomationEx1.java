@@ -59,6 +59,6 @@ public class AutomationEx1 {
 //	    String textVerification = driver.findElement(By.xpath("")).getText();
 //	    System.out.println("Text on screen: "+textVerification);
 //	    Assert.assertTrue(textVerification.contains(string));
-	    driver.close();
+	    driver.quit();
 	}
 }
